@@ -1,0 +1,25 @@
+{
+    "name": "ismail/crudgenerator",
+    "description": "Crud Generator",
+    "type": "project",
+    "license": "MIT",
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Ismail\\CrudGenerator\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Ismail\\CrudGenerator\\Tests\\": "tests/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Ismail\\CrudGenerator\\CrudGeneratorServiceProvider"
+            ]
+        }
+    }
+}
